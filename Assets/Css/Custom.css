@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Font Poppins*/
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+font-family: "Poppins", sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+.poppins-light {
+font-family: "Poppins", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.poppins-regular {
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.poppins-medium {
+font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.poppins-semibold {
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.poppins-bold {
+font-family: "Poppins", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+.poppins-extrabold {
+font-family: "Poppins", sans-serif;
+font-weight: 800;
+font-style: normal;
+}
+
+.poppins-black {
+font-family: "Poppins", sans-serif;
+font-weight: 900;
+font-style: normal;
+}
+
+.poppins-thin-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 100;
+font-style: italic;
+}
+
+.poppins-extralight-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 200;
+font-style: italic;
+}
+
+.poppins-light-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 300;
+font-style: italic;
+}
+
+.poppins-regular-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
+.poppins-medium-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 500;
+font-style: italic;
+}
+
+.poppins-semibold-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-style: italic;
+}
+
+.poppins-bold-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 700;
+font-style: italic;
+}
+
+.poppins-extrabold-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 800;
+font-style: italic;
+}
+
+.poppins-black-italic {
+font-family: "Poppins", sans-serif;
+font-weight: 900;
+font-style: italic;
+}
+
+/* Font Open Sans */
+.open-sans-thin {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.open-sans-light {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.open-sans-regular {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.open-sans-medium {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.open-sans-semibold {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.open-sans-bold {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.open-sans-extrabold {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.open-sans-black {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.open-sans-thin-italic {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.open-sans-light-italic {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.open-sans-regular-italic {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.open-sans-medium-italic {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.open-sans-semibold-italic {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.open-sans-bold-italic {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.open-sans-extrabold-italic {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.open-sans-black-italic {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+
+  
+  /* Font Size */
+.fs-5 { font-size: 5px; }
+.fs-6 { font-size: 6px; }
+.fs-7 { font-size: 7px; }
+.fs-8 { font-size: 8px; }
+.fs-9 { font-size: 9px; }
+.fs-10 { font-size: 10px; }
+.fs-11 { font-size: 11px; }
+.fs-12 { font-size: 12px; }
+.fs-13 { font-size: 13px; }
+.fs-14 { font-size: 14px; }
+.fs-15 { font-size: 15px; }
+.fs-16 { font-size: 16px; }
+.fs-17 { font-size: 17px; }
+.fs-18 { font-size: 18px; }
+.fs-19 { font-size: 19px; }
+.fs-20 { font-size: 20px; }
+.fs-21 { font-size: 21px; }
+.fs-22 { font-size: 22px; }
+.fs-23 { font-size: 23px; }
+.fs-24 { font-size: 24px; }
+.fs-25 { font-size: 25px; }
+.fs-26 { font-size: 26px; }
+.fs-27 { font-size: 27px; }
+.fs-28 { font-size: 28px; }
+.fs-29 { font-size: 29px; }
+.fs-30 { font-size: 30px; }
+.fs-31 { font-size: 31px; }
+.fs-32 { font-size: 32px; }
+.fs-33 { font-size: 33px; }
+.fs-34 { font-size: 34px; }
+.fs-35 { font-size: 35px; }
+.fs-36 { font-size: 36px; }
+.fs-37 { font-size: 37px; }
+.fs-38 { font-size: 38px; }
+.fs-39 { font-size: 39px; }
+.fs-40 { font-size: 40px; }
+.fs-41 { font-size: 41px; }
+.fs-42 { font-size: 42px; }
+.fs-43 { font-size: 43px; }
+.fs-44 { font-size: 44px; }
+.fs-45 { font-size: 45px; }
+.fs-46 { font-size: 46px; }
+.fs-47 { font-size: 47px; }
+.fs-48 { font-size: 48px; }
+.fs-49 { font-size: 49px; }
+.fs-50 { font-size: 50px; }
+.fs-51 { font-size: 51px; }
+.fs-52 { font-size: 52px; }
+.fs-53 { font-size: 53px; }
+.fs-54 { font-size: 54px; }
+.fs-55 { font-size: 55px; }
+.fs-56 { font-size: 56px; }
+.fs-57 { font-size: 57px; }
+.fs-58 { font-size: 58px; }
+.fs-59 { font-size: 59px; }
+.fs-60 { font-size: 60px; }
+.fs-61 { font-size: 61px; }
+.fs-62 { font-size: 62px; }
+.fs-63 { font-size: 63px; }
+.fs-64 { font-size: 64px; }
+.fs-65 { font-size: 65px; }
+.fs-66 { font-size: 66px; }
+.fs-67 { font-size: 67px; }
+.fs-68 { font-size: 68px; }
+.fs-69 { font-size: 69px; }
+.fs-70 { font-size: 70px; }
+.fs-71 { font-size: 71px; }
+.fs-72 { font-size: 72px; }
+.fs-73 { font-size: 73px; }
+.fs-74 { font-size: 74px; }
+.fs-75 { font-size: 75px; }
+.fs-76 { font-size: 76px; }
+.fs-77 { font-size: 77px; }
+.fs-78 { font-size: 78px; }
+.fs-79 { font-size: 79px; }
+.fs-80 { font-size: 80px; }
+.fs-81 { font-size: 81px; }
+.fs-82 { font-size: 82px; }
+.fs-83 { font-size: 83px; }
+.fs-84 { font-size: 84px; }
+.fs-85 { font-size: 85px; }
+.fs-86 { font-size: 86px; }
+.fs-87 { font-size: 87px; }
+.fs-88 { font-size: 88px; }
+.fs-89 { font-size: 89px; }
+.fs-90 { font-size: 90px; }
+.fs-91 { font-size: 91px; }
+.fs-92 { font-size: 92px; }
+.fs-93 { font-size: 93px; }
+.fs-94 { font-size: 94px; }
+.fs-95 { font-size: 95px; }
+.fs-96 { font-size: 96px; }
+.fs-97 { font-size: 97px; }
+.fs-98 { font-size: 98px; }
+.fs-99 { font-size: 99px; }
+.fs-100 { font-size: 100px; }
+
+  
+
+/* Background Color */
+.bg-primary {
+    background-color: #403023 !important;
+}
+
+.bg-cream{
+    background-color: #F3DEC8 !important;
+}
+
+.bg-smoth-yellow{
+    background-color: #FDF2DA !important;
+}
+
+.bg-coklat{
+    background-color: #4B3C2D !important;
+}
+
+.bg-soft-coklat{
+    background-color: #975D2E !important;
+}
+
+.bg-strong-cream{
+    background-color: #EFB876 !important;
+}
+
+/* COLOR Text*/
+.text-primary {
+    color: #403023 !important;
+}
+
+.text-maroon{
+    color: #A53D3D !important;
+}
+
+/* Page Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+section{
+    max-width: 1920px;
+}
+
+.section-1{
+    background-image: url('../Images/bg-sec-1.png');
+    padding-bottom: 150px;
+}
+
+.actor-img{
+    width: 1920px !important;
+}
+
+.latin{
+    margin-top: 350px;
+}
+
+.section-2{
+    background-image: url('../Images/bg-sec-2.png');
+    margin-top: 230px !important;
+}
+
+.section-3{
+    max-width: 1900px !important;
+}
+
+.content-sec-3{
+    height: 100%;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+}
+
+.section-6{
+    background-image: url('../Images/bg-sec-6.png');
+}
+
+.text-sec-6{
+    color: #A53D3D;
+    text-shadow: 
+        5px 5px 0 white, 
+        -5px 5px 0 white, 
+        5px -5px 0 white, 
+        -5px -5px 0 white;
+}
+
+.cover-text-sec-6, .bar-cover{
+    padding-right: 110px;
+}
+
+.bar-cover{
+    padding-left: 120px !important;
+}
+
+.cover-componen-sec-6{
+    width: fit-content;
+    border: 8px solid #EFB876;
+}
+
+.cover-componen2-sec-6{
+    border: 8px solid #EFB876;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+
+.section-7{
+    background-image: url('../Images/bg-sec-7.png');
+}
+
+.section-8{
+    background-image: url('../Images/bg-sec-8.png');
+}
+
+.section-9 img{
+    width: 100%;
+}
+
+.harga{
+    background: linear-gradient(90deg, rgba(190,128,77,1) 0%, rgba(255,228,206,1) 50%, rgba(190,128,77,1) 100%);
+    border-image: linear-gradient(to right, #9B6330 0%, #403023 100%);
+    border-width: 10px;
+    border-style: solid;
+    border-image-slice: 1;
+    border-radius: 30px;
+}
+
+.btn-harga{
+    background-color: #403023;
+}
+
+.btn-harga:hover{
+    background-color: #9B6330;
+}
+
+.menu-drop-down {
+    width: 100%;
+}
+
+.in-menu{
+    width: 75%;
+    cursor: pointer;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    width: 75%;
+    background-color: #f1f1f1;
+    padding: 0 15px;
+    margin-top: -20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: max-height 1.4s ease-out, opacity 1.4s ease-out, transform 1.4s ease-out;
+    max-height: 0;
+    overflow: hidden;
+}
+.dropdown-content.active {
+    display: block;
+    padding: 10px 15px;
+    max-height: 200px;
+    opacity: 1;
+    transform: translateY(0);
+    transition: max-height 0.4s ease-in, opacity 0.4s ease-in, transform 0.4s ease-in;
+}
