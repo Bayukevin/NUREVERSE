@@ -515,6 +515,9 @@ section{
     opacity: 1; /* Transparansi penuh saat hover */
 }
 
+.bold {
+    font-weight: bold;
+  }
 
 /* Extra Large Screens (xl) - biasanya untuk layar > 1440px */
 @media only screen and (min-width: 1441px) {
@@ -650,6 +653,11 @@ section{
         height: max-content;
     }
 
+    .bar-cover{
+        padding-left: 0px !important;
+        padding-right: 10px;
+    }
+
 
 }
 
@@ -756,4 +764,21 @@ section{
     .fs-sm-97 { font-size: 98px; }
     .fs-sm-98 { font-size: 99px; }
     .fs-sm-99 { font-size: 100px; }
+
+    .section-1{
+        padding-bottom: 0px;
+    }    
+
+    .section-2{
+        margin-top: 0px !important;
+    }
+
+    .img-list{
+        height: auto;
+    }
+
+    .bar-cover{
+        padding-left: 0px !important;
+        padding-right: 10px;
+    }
 }
