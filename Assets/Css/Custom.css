@@ -410,6 +410,7 @@ section{
         -5px 5px 0 white, 
         5px -5px 0 white, 
         -5px -5px 0 white;
+        overflow: visible;
 }
 
 .cover-text-sec-6, .bar-cover{
@@ -519,7 +520,29 @@ section{
     font-weight: bold;
   }
 
-/* Extra Large Screens (xl) - biasanya untuk layar > 1440px */
+@media only screen and (min-width: 1000px) and (max-width: 1400px) {
+    .nureverse-logo-1{
+        width: 350px;
+    }
+
+    .time-img{
+        width: 400px;
+    }
+
+    .text-one{
+        font-size: 23px;
+    }
+
+    .component-img{
+        width: 320px;
+    }
+
+    .button-beli{
+        font-size: 25px;
+    }
+}
+
+  /* Extra Large Screens (xl) - biasanya untuk layar > 1440px */
 @media only screen and (min-width: 1441px) {
 
 }
@@ -780,5 +803,9 @@ section{
     .bar-cover{
         padding-left: 0px !important;
         padding-right: 10px;
+    }
+
+    .section-2{
+        margin-top: -350px !important;
     }
 }
