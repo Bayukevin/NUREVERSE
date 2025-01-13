@@ -368,6 +368,10 @@ section{
     max-width: 1920px;
 }
 
+.button-beli1:hover{
+    background-color: #835932 !important;
+}
+
 .section-1{
     background-image: url('../Images/bg-sec-1.png');
     padding-bottom: 150px;
@@ -383,11 +387,11 @@ section{
 
 .section-2{
     background-image: url('../Images/bg-sec-2.png');
-    margin-top: 230px;
+    margin-top: 205px;
 }
 
 .section-3{
-    max-width: 1900px !important;
+    max-width: 1920px !important;
 }
 
 .content-sec-3{
