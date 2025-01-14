@@ -387,7 +387,7 @@ section{
 
 .section-2{
     background-image: url('../Images/bg-sec-2.png');
-    margin-top: 205px;
+    /* margin-top: 205px; */
 }
 
 .section-3{
@@ -442,6 +442,7 @@ section{
 
 .section-8{
     background-image: url('../Images/bg-sec-8.png');
+
 }
 
 .section-9 img{
@@ -547,14 +548,30 @@ section{
 }
 
   /* Extra Large Screens (xl) - biasanya untuk layar > 1440px */
-@media only screen and (min-width: 1441px) {
-
+@media only screen and (max-width: 1900px) {
+    .section-2{
+        margin-top: 0px !important;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .section-2{
+        margin-top: 80px;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    
 }
 
 /* Large Screens (lg) - biasanya untuk layar antara 1200px dan 1440px */
 @media only screen and (min-width: 1200px) and (max-width: 1440px) {
     
     
+}
+
+@media screen and (max-width: 992px) {
+    .ant-ag{
+        position: static !important;
+    }
 }
 
 /* Medium Screens (md) - biasanya untuk layar antara 768px dan 1200px */
